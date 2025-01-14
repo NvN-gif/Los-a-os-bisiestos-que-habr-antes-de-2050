@@ -1,11 +1,11 @@
 var AñoActual = 2025;
 var AñoLimite = 2050;
-var AñoBisiestos = "";
+var AñosBisiestos = "";
 
 for (var Año = AñoActual; Año < AñoLimite; Año++) {
     if ((Año % 4 === 0 && Año % 100 !== 0) || (Año % 400 === 0)) {
-        AñoBisiestos += Año + " ";
+        AñosBisiestos += Año + " ";
     }
 }
 
-console.log("Años bisiestos antes de 2050: " + AñoBisiestos);
+console.log("Años bisiestos antes de 2050: " + AñosBisiestos);
